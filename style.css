@@ -1,0 +1,394 @@
+@import url(//db.onlinewebfonts.com/c/647a7208a3f353750207213a569815d4?family=Chronicle+Display);
+@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+*{
+    margin: 0 auto;
+    max-width: 1920px;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+body{
+    background: #0B1D26;
+    
+}
+.intro__bg--hero{
+    background-image: url(./BG\ Hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    z-index: 18;
+}
+.intro__bg--hg{
+    background-repeat: no-repeat;
+    background-image: url(./HG.png);
+    width: 100%;
+    height: 1513px;
+    position: absolute;
+    top: -400px;
+}
+.intro__bg--mg{
+    background-repeat: no-repeat;
+    background-image: url(./MG.png);
+    position: absolute;
+    width: 100%;
+    height: 1422px;
+    top: 450px;
+}
+.intro__bg--vg{
+    background-repeat: no-repeat;
+    background-image: url(./VG.png);
+    position: absolute;
+    width: 100%;
+    height: 926px;
+    top: 768px;
+}
+.intro__bg-content{
+    background-repeat: no-repeat;
+    background-image: url(./BG\ Content.png);
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 1200px;
+}
+
+.intro__header--head{
+    color: #fff;
+    padding-top: 60px;
+}
+.intro__header--logo{
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    left: 80px;
+    position: absolute;
+    z-index: 200;
+}
+.intro__header--items{
+    position: absolute;
+    z-index: 200;
+    left: 50%;
+    display: flex;
+    margin-left: -120px;
+    flex-direction: row;
+}
+.intro__header--item{
+    margin-right: 20px;
+    font-family: Gilroy;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.intro__header--item:nth-child(3){
+    margin-right: 0;
+}
+.intro__header--icon{
+    width: 24px;
+    height: 24px;
+    background-image: url(./icon_account.svg);
+}
+.intro__header--account{
+    width: 110px;
+    height: 25px;
+    left: 90%;
+    position: absolute;
+    z-index: 200;
+    cursor: pointer;
+    display: flex;
+}
+.intro__baseline{
+    z-index: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro__baseline--social{
+    position: absolute;
+    z-index: 301;
+    left: 80px;
+    margin-left: -22px;
+    top: 359px;
+
+}
+.intro__baseline--follow{
+    transform: rotate(90deg);
+    font-size: 18px;
+    line-height: 22px; 
+    
+    font-weight: 700;
+    color: #fff;
+
+}
+.intro__baseline--insta{
+    background-image: url(./instagram.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.intro__baseline--twit{
+    background-image: url(./twitter.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    
+}
+.intro__baseline--h2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    z-index: 302;
+    position: absolute;
+    width: 950px;
+    height: 310px;
+    left: 24%;
+    top: 287px;
+}
+.intro__baseline--up{
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+}
+.intro__baseline--border{
+    width: 72px;
+    height: 2px;
+    margin-left: 0;
+    margin-right: 32px;
+    background-color: #FBD784;
+}
+.intro__baseline--gold{
+    color: rgba(251, 215, 132, 1);
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 800;
+    font-family: 'Gilroy';
+    letter-spacing: 6px;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+.intro__baseline--heading{
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    margin: 32px 0;
+    color: #fff;
+}
+.intro__baseline--text{
+    margin-left: 0;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.intro__baseline--slider{
+    position: absolute;
+    z-index: 303;
+    top: 329px;
+    left: 92%;
+    display: flex;
+}
+.intro__baseline--position{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+.text{
+    cursor: pointer;
+    font-family: Gilroy;
+    line-height: 22px;
+    font-size: 18px;
+    color: #fff;
+}
+.numb{
+    font-family: Gilroy;
+    line-height: 22px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+    text-align: right;
+}
+.intro__baseline--statusbar{
+    background-image: url(./Slider\ BG.png);
+    width: 3px;
+    height: 240px;
+    z-index: 306;
+    margin-top: -16px;
+}
+.intro__baseline--enable{
+    background-image: url(./enable.png);
+    width: 3px;
+    height: 60px;
+    z-index: 307;
+}
+.content{
+    position: absolute;
+
+    top: 1440px;
+
+    left: 12%;
+
+    right: 12%;
+ 
+}
+.content  .intro__baseline--heading {
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 600;
+}
+.container__block{
+    max-width: 1460px;
+    margin: 0 auto;
+}
+.content__block--text{
+    max-width: 600px;
+}
+.content__block--content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.content__block--text:nth-child(1),
+.content__block--text:nth-child(3){
+    margin-right: 77px;
+}
+.content__block--text:nth-child(2){
+    margin-left: 77px !important;
+}
+.content__block--p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-bottom: 27px;
+    color: #fff;
+    max-width: 600px;
+}
+.foto1{
+    background-size: cover;
+    width: 566px;
+    height: 720px;
+    background-image: url(./foto1.png);
+}
+.foto2{
+    background-size: cover;
+    width: 566px;
+    height: 720px;
+    background-image: url(./foto2.png);
+}
+.foto3{
+    background-size: cover;
+    width: 566px;
+    height: 720px;
+    background-image: url(./foto3.png);
+}
+.gold{
+    color: #FBD784;
+}
+.footer{
+    color: #fff;
+    display: flex;
+}
+.footer__block--heading{
+    cursor: pointer;
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.footer__block--text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 0;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 122px;
+    cursor: pointer;
+    max-width: 300px;
+}
+.footer__block--copy{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.5;
+    cursor: pointer;
+    font-style: normal;
+}
+.footer__block--name{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    color: #FBD784;
+}
+.footer__block--a{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+
+@media (max-width: 1300px){
+    body{
+        margin: 0 auto;
+    }
+    .intro__baseline--heading{
+        line-height: 50px;
+        font-size: 44px;
+        color: #0B1D26;
+    }
+    .text, 
+    .numb {
+        color: #0B1D26;
+    }
+    .intro__baseline--statusbar{
+        display: none;
+    }
+    .content .intro__baseline--heading{
+      color: #fff; 
+      font-size: 35px;
+      line-height: 40px; 
+    }
+    .foto1{
+        width: 400px;
+        background-position-x: center;
+        height: 400px;
+    }
+    .foto2{
+        width: 400px;
+        background-position-x: center;
+        height: 400px;
+    }
+    .foto3{
+        width: 400px;
+        background-position-x: center;
+        height: 400px;
+    }
+
+}
