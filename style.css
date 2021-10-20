@@ -11,6 +11,9 @@ body{
     background: #0B1D26;
     
 }
+.intro{
+    max-width: 1920px;
+}
 .intro__bg--hero{
     background-image: url(./BG\ Hero.png);
     background-repeat: no-repeat;
@@ -196,9 +199,9 @@ body{
 }
 .intro__baseline--slider{
     position: absolute;
-    z-index: 303;
+    z-index: 301;
     top: 329px;
-    left: 89%;
+    right: 80px;
     display: flex;
 }
 .intro__baseline--position{
@@ -271,7 +274,7 @@ body{
     margin-right: 77px;
 }
 .content__block--text:nth-child(2){
-    margin-left: 77px !important;
+    margin-left: 77px;
 }
 .content__block--p{
     font-size: 18px;
@@ -356,7 +359,14 @@ margin-left: 0;
     line-height: 32px;
     margin-bottom: 14px;
 }
-
+@media (min-width:1900px){
+    .intro__baseline--social{
+        left: auto;
+    }
+    .intro__baseline--slider{
+        right: 10%;
+    }
+}
 @media (max-width: 1300px){
     body{
         margin: 0 auto;
@@ -381,17 +391,39 @@ margin-left: 0;
     .foto1{
         width: 400px;
         background-position-x: center;
-        height: 400px;
+        height: 500px;
     }
     .foto2{
         width: 400px;
         background-position-x: center;
-        height: 400px;
+        height: 500px;
+        order: 2;
     }
     .foto3{
         width: 400px;
         background-position-x: center;
-        height: 400px;
+        height: 500px;
     }
-
+    .content__block--content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content__block--text{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .content__block--text:nth-child(1),
+    .content__block--text:nth-child(3){
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 auto;     
+        margin-bottom: 20px;
+    }
+    .content__block--text:nth-child(2){
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 auto;
+        order: 1;
+        margin-bottom: 20px;
+    }
 }
