@@ -371,6 +371,7 @@ margin-left: 0;
     body{
         margin: 0 auto;
     }
+
     .intro__baseline--heading{
         line-height: 50px;
         font-size: 44px;
@@ -425,5 +426,56 @@ margin-left: 0;
         margin: 0 auto;
         order: 1;
         margin-bottom: 20px;
+    }
+    @media( max-width:819px){
+        .intro__baseline--gold{
+            color: #0B1D26;
+        }
+        .intro__header--logo{
+            top: 70px;
+        }
+        .intro__header--items{
+            top: 150px;
+        }
+        .intro__header--account{
+            top: 80px;
+        }
+        .intro__baseline{
+            display: block;
+        }
+
+        .intro__baseline--slider{
+            display: none;
+        }
+        .intro__baseline--social{
+            transform: rotate(-90deg);
+            left: 50%;
+            top: 150px;
+        }
+
+        .foto1,
+        .foto2,
+        .foto3 {
+            width: 150px;
+            height: 250px;
+        }
+        .content__block--content {
+            margin-bottom: 100px;
+        }
+        .footer{
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer__block--a,
+        .footer__block--copy,
+        .footer__block--text {
+            display: none;
+        }
+        .first{
+            margin: 0;
+        }
+        .footer__block--heading{
+            text-align: center;
+        }
     }
 }
